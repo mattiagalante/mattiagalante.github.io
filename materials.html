@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Materials — Mattia Galante</title>
+  <meta name="description" content="Manuals and code by Mattia Galante.">
+  <meta name="author" content="Mattia Galante">
+  <meta name="theme-color" content="#1f8ad0">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== HEADER — same on every page: only aria-current changes ===== -->
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Mattia Galante</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">home</a>
+        <a href="cv.html">cv</a>
+        <a href="research.html">research</a>
+        <a href="teaching.html">teaching</a>
+        <a href="materials.html" aria-current="page">materials</a>
+        <a href="comments.html">comments</a>
+        <a href="affiliations.html">affiliations</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+
+    <section class="page-head">
+      <h1>Materials</h1>
+      <p class="lead">Manuals, code and other materials for research and teaching.</p>
+      <!-- In-page index: remove "hidden" when the code section is visible again -->
+      <ul class="toc" hidden>
+        <li><a href="#manuals">manuals</a></li>
+        <li><a href="#code">code</a></li>
+      </ul>
+    </section>
+
+    <!-- Put the files in the materials/ folder and copy an <article class="pub"> block for each one -->
+    <section aria-labelledby="manuals">
+      <h2 id="manuals">manuals</h2>
+      <p class="muted small">Both manuals were generated with AI as self-study textbooks. They have not been peer-reviewed: use them critically and check the references against the original sources.</p>
+      <article class="pub">
+        <h3 class="pub-title">Machine Learning and AI for Environmental Economics and Choice Modelling</h3>
+        <p class="pub-meta">A self-study textbook for PhD students, 426 pages in 20 chapters: from the foundations of machine learning and causal ML to environmental data and policy, and then to choice modelling &mdash; MNL, advanced and hybrid models, ML-assisted specification, neural choice models and welfare measures under ML. With R and Python examples &middot; <span class="tag">AI-generated</span> <span class="tag">R</span> <span class="tag">Python</span></p>
+        <div class="pub-actions">
+          <a class="btn" href="materials/ml-ai-environmental-economics-choice-modelling.pdf">pdf &middot; 5.3 MB</a>
+        </div>
+      </article>
+      <article class="pub">
+        <h3 class="pub-title">Identification, Assumptions, and Fragility</h3>
+        <p class="pub-meta">A self-study textbook in econometrics, stated-preference valuation, welfare analysis and cost&ndash;benefit appraisal, 742 pages in 52 chapters: mathematical foundations, likelihood and core econometrics, discrete choice and contingent valuation, identification in survey experiments, welfare, MDCEV, cost&ndash;benefit analysis, meta-analysis and benefit transfer &middot; <span class="tag">AI-generated</span></p>
+        <div class="pub-actions">
+          <a class="btn" href="materials/identification-assumptions-fragility.pdf">pdf &middot; 3.5 MB</a>
+        </div>
+      </article>
+    </section>
+
+    <!-- CODE section: hidden for now. To show it, delete the word "hidden" below
+         (and in the in-page index above). -->
+    <section aria-labelledby="code" hidden>
+      <h2 id="code">code</h2>
+      <p class="todo-note">Example entry: replace it with your first script or repository, or delete it.</p>
+      <article class="pub">
+        <h3 class="pub-title"><span class="todo">[Script or package name]</span></h3>
+        <p class="pub-meta"><span class="todo">[What it does]</span> &middot; <span class="tag">R</span> <span class="tag">Apollo</span></p>
+        <div class="pub-actions">
+          <a class="btn" href="#">code</a>
+          <a class="btn" href="#">github &#8599;</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER — same on every page ===== -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span data-year>2026</span> Mattia Galante</span>
+      <span class="footer-links">
+        <a href="mailto:mattia.galante-1@unitn.it">email</a>
+        <a href="https://webapps.unitn.it/du/en/Persona/PER0280218/Curriculum">unitn</a>
+        <a href="https://orcid.org/0009-0009-4476-0902">orcid</a>
+      </span>
+    </div>
+  </footer>
+</body>
+</html>
