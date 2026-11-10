@@ -19,7 +19,7 @@ papers/               qui vanno i PDF dei paper
 materials/            qui vanno manuali (PDF) e codici (script, zip) della pagina Materials
 assets/
   css/style.css       tutto lo stile (colori in cima, sezione 2)
-  js/main.js          piccoli effetti: anno nel footer, apri/chiudi tutti gli abstract
+  js/main.js          piccoli effetti (anno nel footer)
   img/                photo.jpg (per cambiarla sostituisci il file, stesso nome), favicon, onde (SVG)
   fonts/              JetBrains Mono, incluso nel sito (licenza OFL): nessuna chiamata a Google Fonts
   cv.pdf              segnaposto: sostituiscilo con il tuo CV mantenendo lo stesso nome
@@ -38,7 +38,7 @@ Da controllare in particolare:
 ## Come aggiungere contenuti
 
 - **News**: in `index.html` copia una riga `<li>...</li>` dentro `<ul class="log">`, in cima (le più recenti prima).
-- **Paper**: in `research.html` copia un intero blocco `<article class="pub"> ... </article>` nella sezione giusta. L'abstract si apre con il pulsante `[+] abstract`.
+- **Paper**: in `research.html` copia un intero blocco `<article class="pub"> ... </article>` nella sezione giusta (titolo, autori, stato). Per i paper **published** c'è un modello già pronto, nascosto in un commento sotto il titolo "published", con i pulsanti `abstract` e `doi`: copialo fuori dal commento e compilalo.
 - **Work in progress**: una riga `<li>` con il solo titolo.
 - **Conferenza**: una riga `<li>` nella lista `conferences`.
 - **Manuale o codice**: metti il file in `materials/`, poi in `materials.html` copia un blocco `<article class="pub"> ... </article>` nella sezione `manuals` o `code` e fai puntare il pulsante al file (es. `href="materials/guida-apollo.pdf"`). Per un repository GitHub usa direttamente il suo link.

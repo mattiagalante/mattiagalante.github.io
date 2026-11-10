@@ -238,6 +238,7 @@ button.btn { font: inherit; font-size: .85rem; }
 .pub-title::before { content: none; }
 .pub-meta { margin: 0 0 .75rem; color: var(--muted); font-size: .87rem; }
 .pub-meta em { color: var(--ink); }
+.pub-meta:last-child { margin-bottom: 0; }
 .pub-actions { display: flex; flex-wrap: wrap; gap: .5rem; align-items: flex-start; }
 
 details.abstract > summary { list-style: none; }
